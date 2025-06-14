@@ -56,7 +56,7 @@ export default function Navbar() {
       </button>
 
       <div
-        className="offcanvas offcanvas-start"
+        className="offcanvas offCan offcanvas-start"
         data-bs-scroll="true"
         data-bs-backdrop="false"
         tabIndex="-1"
