@@ -606,6 +606,14 @@ body {
   z-index: 111;
 }
 
+/* spinner */
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* animated classes */
 .fromleft {
   animation: fromLeft linear forwards;
