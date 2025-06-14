@@ -3,6 +3,7 @@ export default function Events() {
     <>
       <div className="events" id="events">
         <div className="container-fluid">
+          <h3>upcomming events</h3>
           <div id="carouselExampleCaptions" className="carousel slide fadeIn">
             <div className="carousel-indicators">
               <button
@@ -33,10 +34,6 @@ export default function Events() {
                   className="d-block w-100"
                   loading="lazy"
                 />
-                <div className="carousel-caption">
-                  <h3>forearms-wrestling Competition</h3>
-                  <h5>sunday / september the 1st</h5>
-                </div>
               </div>
               <div className="carousel-item">
                 <img
@@ -44,10 +41,6 @@ export default function Events() {
                   className="d-block w-100"
                   loading="lazy"
                 />
-                <div className="carousel-caption">
-                  <h3>Deadlifting Competition</h3>
-                  <h5>Friday / september the 6th</h5>
-                </div>
               </div>
               <div className="carousel-item">
                 <img
@@ -55,10 +48,6 @@ export default function Events() {
                   className="d-block w-100"
                   loading="lazy"
                 />
-                <div className="carousel-caption">
-                  <h3>local championship final</h3>
-                  <h5>Friday / september the 6th 9:00 PM</h5>
-                </div>
               </div>
             </div>
             <button
